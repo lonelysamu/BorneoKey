@@ -3,12 +3,21 @@
     border: 1px solid black;
 }
 
+.cbox{
+  box-sizing: border-box;
+  padding: 20px;
+}
+
 .cardlimit{
     min-height: 460px;
 }
 
 .smokewhite{
     background-color: whitesmoke;
+}
+
+.headerunique{
+  width: 300px !important;
 }
 
 /* Dropdown Button */
@@ -52,3 +61,9 @@
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
   .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+  @media  (max-width: 767.98px) {
+    .headerunique{
+      width: 100% !important;
+    }
+  }
