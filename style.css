@@ -1,3 +1,29 @@
+
+:root {
+  --c1: rgb(255, 64, 64);
+  --t1: black;
+  --c2: whitesmoke;
+  --t2: black;
+  --c3: whitesmoke;
+  --t3: white;
+  --c4: rgb(15, 129, 76);
+  --t4: white;
+  --c5: white;
+}
+
+.btnsytle{
+  border: 1px solid rgb(134, 134, 134) !important;
+  background-color: var(--c4) !important;
+  color: var(--t4) !important;
+  font-size: medium !important;
+  font-weight: bold !important;
+}
+
+.bgc{
+  background-color: var(--c5) !important;
+  font-family: 'Roboto', sans-serif;
+}
+
 .test{
     box-sizing: border-box;
     border: 1px solid black;
@@ -12,8 +38,19 @@
     min-height: 460px;
 }
 
+.navc{
+  background-color: var(--c3) !important;
+  color: var(--t3) !important;
+}
+
 .smokewhite{
-    background-color: whitesmoke;
+    background-color: var(--c1) !important;
+    color: var(--t1);
+}
+
+.smokeblack{
+  background-color: var(--c2) !important;
+  color: var(--t2);
 }
 
 .headerunique{
